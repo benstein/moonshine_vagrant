@@ -10,7 +10,7 @@ Here's what you need to do next:
   * Vagrantfile.generated => Vagrantfile
 * Install VirtualBox: http://virtualbox.org
 * You need to install Vagrant! http://vagrantup.com - Once it's installed:
-  * vagrant box add "lucid64" http://files.vagrantup.com/lucid64.box
+  * `vagrant box add "lucid64" http://files.vagrantup.com/lucid64.box`
 * Install dnsmasq. If you have Homebrew (and you should): brew install dnsmasq 
   * Follow the instructions to start dnsmasq and get it to start at boot 
   * You need to make 127.0.0.1 your FIRST DNS server. How you do that depends on your OS.
